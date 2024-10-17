@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Study Tracker</h1>
+        <form id="subject-form">
+            <input type="text" id="subject-input" placeholder="Add Subject" required>
+            <input type="number" id="goal-input" placeholder="Set Goal (hours)" min="1" required>
+            <button type="submit">Add Subject</button>
+        </form>
+
+        <div id="error-msg"></div>
+
+        <div class="toolbar">
+            <button id="sort-btn">Sort by Progress</button>
+            <button id="reset-all-btn">Reset All Progress</button>
+            <button id="toggle-mode-btn">Toggle Dark Mode</button>
+        </div>
+
+        <div id="total-study-time">Total Study Time: 0 hours</div>
+
+        <ul id="subject-list"></ul>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
