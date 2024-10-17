@@ -3,7 +3,7 @@ The Study Tracker is a web application designed to help users manage their study
 
 Demo
 Check out the live demo of my Study Tracker <a href="https://davidtechie.github.io/Study-Tracker/" target="_blank">here</a>.
-
+ 
 Features
 Add subjects with specific study goals (in hours).
 Log hours studied for each subject and track progress.
