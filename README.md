@@ -1,5 +1,4 @@
 # Study-Tracker
-Study Tracker
 The Study Tracker is a web application designed to help users manage their study goals effectively. Users can add subjects, set study time goals, and track their progress. The app also features a dark mode for easier viewing at night.
 
 Demo
